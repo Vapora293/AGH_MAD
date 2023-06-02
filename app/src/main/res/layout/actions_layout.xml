@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginTop="20sp"
+        android:text="Write to Logcat"
+        android:onClick="writeToLogcat"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginTop="20sp"
+        android:text="Show toast message"
+        android:onClick="showToastMessage"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/write_to_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:hint="Something will be written here"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/purple_200"
+        />
+    <Button
+        android:id="@+id/write_to_edit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginTop="20sp"
+        android:onClick="writeToEditText"
+        android:text="Write something in here"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/user_value_write_to_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:hint="Write something here"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/purple_200"
+        />
+    <EditText
+        android:id="@+id/user_value_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:hint="This text will change"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/purple_200"
+        />
+    <Button
+        android:id="@+id/editing_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginTop="20sp"
+        android:onClick="copyUserValueToEditText"
+        android:text="Apply changes"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

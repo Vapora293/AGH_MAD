@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA500">
+
+    <EditText
+        android:id="@+id/label_fingers_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:hint="The result will be shown here"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/label_fingers_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:hint="Type the number you think I've chosen"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:background="#FF0000"
+        />
+    <EditText
+        android:id="@+id/textField_fingers_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:hint="Type the number"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/button_Fingers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginTop="20sp"
+        android:text="Play the game"
+        android:onClick="fingersPlay"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/black"/>
+
+
+</LinearLayout>
